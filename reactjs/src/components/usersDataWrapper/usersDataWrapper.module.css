@@ -1,0 +1,8 @@
+.content {
+    flex-grow: 1;
+    width: 80vw;
+    height: 80vh;
+    margin-top: 15vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }

@@ -1,0 +1,71 @@
+@value brand: '../../brand.module.css';
+@value dark, border, white, disabled, selected, background, active from brand;
+
+.cardContainer {
+  margin-top: 50px;
+  
+}
+
+.card {
+  padding-top: 25px;
+}
+
+.heading {
+  composes: heading from brand;
+  margin-bottom: 0;
+}
+.title {
+  composes: title from brand;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  text-align: left;
+}
+.subTitle {
+  composes: subTitle from brand;
+}
+
+.profile {
+  color: white;
+  text-align: center;
+}
+
+.avatar {
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.tags {
+  margin-top: 20px;
+}
+
+.tags :global .tag {
+  margin-right: 5px;
+  color: white;
+  background-color: active;
+}
+
+.trial, .labels {
+  font-size: 16px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.labels {
+  color: border;
+}
+
+.navButton {
+  composes: button from brand;
+}
+
+.userImg {
+  position: relative;
+  width: 200px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.cardBlock {
+  margin-left: 20px;
+}

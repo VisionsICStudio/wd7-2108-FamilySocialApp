@@ -1,0 +1,28 @@
+Users: Model < one to many X
+id, firstname, lastname, username, address, city, state, zip, avatar_id
+
+Posts: Model < one to many X
+id, title, created_at, tag_count, comment_count, like_count, watch_count, is_popular, is_top, is_liked, is_watched, content, user_id 
+
+Tags: Model < one to many X
+id, icon, name
+
+Tags_Matched: Model ( as bridge ) = many to many X
+id, tag_id, post_id
+
+Comments: Model - one to one X
+id, content
+
+Comments_Matched: Model ( as bridge ) = many to many X
+id, comments_id, post_id, user_id
+
+Roles: Model < one to many X
+id, role
+
+Roles_Assigned: Model ( as bridge ) = many to many X
+id, role_id, user_id
+
+Avatars: Model - one to one X
+id, alt_text, url
+
+

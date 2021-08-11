@@ -1,0 +1,110 @@
+@value brand: '../../brand.module.css';
+@value dark, border, white, selected, disabled, borderRadiusLg from brand;
+@value sideBarWidth from '../sideMenu/sideMenu.module.css';
+
+.background {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 10vh;
+  width: 100vw;
+  padding: 10px;
+  background-color: white;
+}
+
+.logo {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  background: url('../../images/fs-logo.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 200px;
+  height: 50px;
+  padding: 0 0 0 10px;
+}
+
+.logoFont {
+  display: none;
+  color: white;
+  font-weight: normal;
+  font-size: 30px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: normal;
+  line-height: 36px;
+}
+.searchBar {
+  position: relative;
+  top: 10px;
+  flex-grow: 0.5;
+  vertical-align: middle;
+  background-color: white;
+}
+.searchBarIcon {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+.searchBarInput {
+  width: calc(100% - 35px);
+  height: 75%;
+  color: dark;
+  font-weight: normal;
+  font-size: 16px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: normal;
+  line-height: 19px;
+  vertical-align: middle;
+  background: white;
+  border: border 2px solid;
+  border-radius: 4px;
+  outline: none;
+}
+.searchBarInput::placeholder {
+  text-indent: 20px;
+  color: black;
+}
+
+.navButton {
+  composes: button from brand;
+}
+
+.navLink {
+  position: relative;
+  top: 10px;
+  composes: link from brand;
+  margin: 10px auto 0 auto;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  margin: 0 10px 0 20px;
+  vertical-align: middle;
+  border: 1px solid border;
+  border-radius: 50%;
+}
+
+.loggedInMenu {
+  position: relative;
+  padding: 14px 0;
+}
+
+.loginHeader {
+  position: relative;
+  top: 10px;
+  flex-grow: 0.5;
+  vertical-align: middle;
+  background-color: white;
+}
+
+.ddTitle {
+  position: relative;
+  vertical-align: middle;
+  text-indent: 5px;
+  color: selected;
+}
+
+.ddContent {
+  z-index: 2;
+}

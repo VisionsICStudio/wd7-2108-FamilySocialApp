@@ -1,0 +1,26 @@
+/*
+; ==================================================
+; Title: footer.module.css - footer component folder 
+; Authors: Aaron Wilson
+; Instructor: Brandon Brown
+; Date: April 26, 2021
+; Description: Build out GoWilder App's css file.
+; Legend: Team member responsible
+; for css page.
+; ==================================================
+*/
+
+.footerBackground {
+    position: fixed;
+    bottom: 0px;
+    background-color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 10.5vh;
+    width: 100vw;
+}
+
+.centerText {
+    color: deeppink;
+    text-align: center;
+    width: 100vw;
+}

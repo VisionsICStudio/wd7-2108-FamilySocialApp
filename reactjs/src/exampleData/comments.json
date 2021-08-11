@@ -1,0 +1,62 @@
+[
+  {
+    "id": "764ed248-9596-4536-b409-00481614dbl5",
+    "content": "That, was the best blog post I'm seen in a while.",
+    "createdAt": "2020-09-08T10:11:05+0000",
+    "userId": "9f552e74-e38f-4987-94d2-31403ad4b77a"
+  },
+  {
+    "id": "764ed248-9796-4536-b909-00481914dbb2",
+    "content": "Awesome post my friend. Keep up the good work.",
+    "createdAt": "2020-06-08T19:21:06+0000",
+    "userId": "9b7bd9c3-0287-4e46-9025-0416249f838b"
+  },
+  {
+    "id": "764ed248-9396-4536-b109-00481114dbd4",
+    "content": "I always enjoy your posts. It's cool to get an insight into your mind.",
+    "createdAt": "2020-06-01T15:01:26+0000",
+    "userId": "dabfc0b6-d875-4c1e-b17d-74b5d74a796b"
+  },
+  {
+    "id": "764ed248-9396-4536-b309-00481214dbe2",
+    "content": "That's a very technical analogy of that type of programming language.",
+    "createdAt": "2020-07-07T19:21:26+0000",
+    "userId": "038eaa41-6e02-4ee2-b8e5-bb4bca9e2971"
+  },
+  {
+    "id": "764ed248-9396-4536-b209-00481134dbt8",
+    "content": "You're one smart cookie! that's for sure. Keep the good posts coming.",
+    "createdAt": "2020-06-01T19:31:26+0000",
+    "userId": "3d1f1191-be55-4967-8e18-44c5376a92ca"
+  },
+  {
+    "id": "764ed248-9396-4536-b409-00484114dbv6",
+    "content": "You have a keen mind's eye view into the world of technology.",
+    "createdAt": "2020-08-02T19:31:16+0000",
+    "userId": "b4076376-b442-4ba8-ac71-e9f18331f002"
+  },
+  {
+    "id": "394ed248-9696-4536-r103-00483164dhd3",
+    "content": "Although I don't necessarily agree with all that's been said in this post, I respect your point of view.",
+    "createdAt": "2020-01-03T10:01:26+0000",
+    "userId": "2c714d08-6597-4d7d-9bb8-3a48df2051d7"
+  },
+  {
+    "id": "764ed248-9796-4136-b204-10491116dbd7",
+    "content": "I see that you've been utilizing that world class education of yours, impressive!",
+    "createdAt": "2020-05-08T10:11:06+0000",
+    "userId": "fb7fcffc-b63d-4c61-9b8a-cba1f54b3a46"
+  },
+  {
+    "id": "764ed248-2395-4536-b109-30481514dbd6",
+    "content": "Whoa! Some of this is accurate, but I do decare some of your thoughts are far-fetched...",
+    "createdAt": "2020-07-01T11:21:16+0000",
+    "userId": "e1398e26-cce1-45d5-a655-0d1152c8c477"
+  },
+  {
+    "id": "964ed248-9396-4136-b108-00481144dbd7",
+    "content": "Again, and again... You always seem to impress me with your scientific thought process!",
+    "createdAt": "2020-09-09T13:01:06+0000",
+    "userId": "2f05b44b-4d3f-4b23-8e51-82c78fb688c9"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "VisionsIC",
+    "password": "Pa5Sw0rd!",
+    "database": "familysocial_dev",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "VisionsIC",
+    "password": "Pa5Sw0rd!",
+    "database": "familysocial_test",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "visionsic",
+    "password": "Pa5Sw0rd!",
+    "database": "familysocial_prod",
+    "host": "localhost",
+    "dialect": "postgres"
+  }
+}
